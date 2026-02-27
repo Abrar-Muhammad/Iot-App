@@ -41,7 +41,7 @@ Each button in the app is programmed to send a specific **Serial String**.
 ---
 
 ## 🚀 How to Import & Edit
-1.  Navigate to the `/Files` folder in this repo.
+1.  Navigate to the `/Diigital_Home.aia` folder in this repo.
 2.  Download the `Diigital_Home.aia` file.
 3.  Go to [MIT App Inventor](http://ai2.appinventor.mit.edu/).
 4.  Select `Projects` > `Import project (.aia) from my computer`.
