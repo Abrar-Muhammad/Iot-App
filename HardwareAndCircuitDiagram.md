@@ -21,8 +21,33 @@ This document provides a detailed technical breakdown of the hardware layer for 
 The following diagram illustrates how the components are interconnected. 
 
 
+## 🎮 Interactive Simulation & Model
+
+I have designed a professional interactive model of the **Diigital Home** circuit. You can view the full wiring, component list, and signal flow by clicking the link below:
+
+**🔗 [View Interactive Circuit Design on Cirkit Designer](https://app.cirkitdesigner.com/project/b47e554e-9783-483c-a491-85ef9027f9ea)**
+
+### 🔄 How to use the Interactive Model:
+1. **Click the link** above to open the Cirkit Designer web interface.
+2. **Explore the Wiring**: Hover over the wires to see how the Arduino pins (0, 1, and 2) are connected to the Bluetooth and Relay modules.
+3. **Component Specs**: You can see the specific values for the resistors (1kΩ and 2kΩ) used in the logic level shifter.
 
 ---
+
+### 📸 Project Interaction Overview
+Below is a visual representation of how the app communicates with the hardware you see in the link above:
+
+---<img width="3000" height="2192" alt="circuit_image" src="https://github.com/user-attachments/assets/491187cf-13c4-40a4-bd9f-8edfeb37da1d" />
+
+* **App Side**: The MIT App Inventor frontend sends Serial data strings.
+* **Hardware Side**: The Arduino interprets the data and triggers the Relay based on the circuit logic.
+
+### 🧪 Simulation Environment
+If you want to test the logic virtually:
+* **Circuit Simulator**: You can find the interactive wiring model on [Tinkercad Circuits](https://www.tinkercad.com/).
+* **App Logic**: View the `screenshots/` folder in this repository to see the interactive Block logic that handles the Bluetooth connection status.
+
+> **Tip:** Look for the blinking LED on the HC-05 module; it indicates whether the "Diigital Home" app has successfully established a handshake with your hardware!
 
 ## ⚡ Detailed Connection Mapping
 
