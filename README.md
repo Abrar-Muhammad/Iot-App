@@ -36,7 +36,7 @@ This is an open-source **MIT App Inventor** project. To view the blocks and logi
 To make this work with your own IoT hardware:
 1. Ensure your Bluetooth module (e.g., HC-05/HC-06) is powered on.
 2. Update the MAC address or UUID in the blocks if necessary.
-3. Use the provided assets in the `assets/` folder for consistent UI styling.
+3. Use the provided assets
 
 ---
 
